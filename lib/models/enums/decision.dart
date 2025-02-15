@@ -1,0 +1,6 @@
+enum Decision{
+  CANCELED,
+  MISSED,
+  PICKED,
+  DISCONNECTED
+}

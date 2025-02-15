@@ -1,4 +1,5 @@
 
+import 'package:calavigasa2025/features/person/screens/person_list_Page.dart';
 import 'package:calavigasa2025/main.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class ButtonGasa extends StatelessWidget {
             print("appuie sur un bouton");
             Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => Home(),)
+                MaterialPageRoute(builder: (context) => PersonListPage(),)
             );
           }, child: Text("Se connecter")),
           TextButton(
